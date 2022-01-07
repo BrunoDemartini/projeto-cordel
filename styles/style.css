@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font1: 'Passion One', cursive;
+    --font2: Verdana, Geneva, Tahoma, sans-serif;
+    --font3: 'Sriracha', cursive;
+}
+
+body, h1, h2, h3, p{
+    margin: 0px;
+    padding: 0px;
+    border: 0pxs;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+
+}
+
+header h1{
+    font-family: var(--font1);
+    font-size: 10vw;
+    font-variant: small-caps;
+    /* padding-top: 50px; */
+}
+
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+    /* padding-bottom: 50px; */
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    /* box-shadow: inset 0px 7px 19px 0px #00000087; */
+    padding: 10vh 0px 10vh 30px;
+}
+
+section p{
+    font-family: var(--font3);
+    font-size: 3.5vw;
+    
+}
+
+section#img1{
+    background-image: url("../img/background001.jpg");
+}
+
+section#img2{
+    background-image: url("../img/background002.jpg");
+}
+
+.parallax{
+    background-attachment: fixed;
+    background-size: 100%;
+    /* display: inline; */
+}
+
+.parallax>p{
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    display: inline-block;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--font2);
+    padding: 10px;
+}
